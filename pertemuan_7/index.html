@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formulir</title>
+</head>
+<body>
+    <form action="/pertemuan_7/index.html"></form>
+    <fieldset>
+        <legend>Formulir Calon Pegawai</legend>
+
+        <label for="name">Nama : </label>
+        <input type="text" name="name" /><br>
+        
+        <label for="address">Alamat : </label>
+        <input type="text" name="address" /><br>
+        
+        <label for="password">password : </label>
+        <input type="text" name="password" /><br>
+
+        <label for="jeniskelamin"> Jenis Kelamin : </label>
+
+        <input type="radio"name="jeniskelamin" value="Laki-Laki" checked/>
+        <label for="jeniskelamin"> Laki-Laki </label>
+        <input type="radio"name="jeniskelamin" value="Perempuan"/>
+        <label for="jeniskelamin">Perempuan</label><br>
+
+        <label for="bahasa">Bahasa pemograman yang dikuasai:</label>
+        <input type="checkbox" name="bahasa" value="WEB">
+        <label for="bahasa">WEB</label>
+        <input type="checkbox" name="bahasa" value="MOBILE">
+        <label for="bahasa">MOBILE</label>
+        <input type="checkbox" name="bahasa" value="DESKTOP">
+        <label for="bahasa">DESKTOP</label><br>
+
+        <label for="KotaAsal"> Kota Asal : </label>
+            <select> 
+                <option value="Semarang">Semarang</option>
+                <option value="Makasar">Makasar</option>
+                <option value="Manado">Manado</option>
+                <option value="Balikpapan">Balikpapan</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Timika">Timika</option><br>
+            </select><br>
+
+        <label for="kolomjawaban">Apa yang membuat kami harus memilih Anda?:</label>
+        <textarea cols="40" rows="10">Tulis jawaban Anda disini</textarea><br>
+
+        <button>proses</button>
+    </fieldset>
+    </form>
+</body>
+</html>
