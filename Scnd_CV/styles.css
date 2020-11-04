@@ -1,0 +1,132 @@
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.page-header.page-header-small {
+    height: 60vh;
+    max-height: 440px;
+}
+
+.profile-page .page-header {
+    min-height: 550px;
+}
+
+.cc-profile-image img {
+    position: relative;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    border: 15px solid transparent;
+    z-index: 9999;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.profile-page .title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title {
+    font-weight: 700;
+}
+h2, .h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+.h2, h2 {
+    font-size: 2rem;
+}
+
+h3, .h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+.page-header .page-header-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+.page-header .container > .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 15px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 880px;
+}
+.content-center{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tulisan-logo {
+    position: fixed;
+    left: 68rem;
+    bottom: 36rem;
+    z-index: 5;
+    color: white;
+}
+
+.logo {
+    position: fixed;
+    left: 78rem;
+    bottom: 36rem;
+    z-index: 5;
+    color: white;
+}
+
+.background-menu {
+    position: fixed;
+    bottom: 42rem;
+    z-index: 5;
+}
+
+.menuu {
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.menu {
+    position: fixed;
+    top: 0.5rem;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+}
+.menu {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.menu a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menuu:hover .menu{
+    display: block;
+}

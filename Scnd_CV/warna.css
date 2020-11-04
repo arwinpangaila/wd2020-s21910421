@@ -1,0 +1,37 @@
+.garis1{
+    background-color: black;
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    top: 38rem;
+    z-index: -2;
+    opacity: 0.1;
+}
+.garis2{
+    background-color: black;
+    height: 360px;
+    width: 50%;
+    position: absolute;
+    top: 100rem;
+    z-index: -2;
+    opacity: 0.1;
+}
+.garis3{
+    background-color: black;
+    height: 1352px;
+    width: 50%;
+    left: 42.7rem;
+    position: absolute;
+    top: 38rem;
+    z-index: -2;
+    opacity: 0.1;
+}
+.garis4{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 122.5rem;
+    z-index: -2;
+    opacity: 0.3;
+}

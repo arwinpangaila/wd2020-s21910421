@@ -1,0 +1,49 @@
+body {
+    background-color: silver;
+}
+
+.Educations {
+    position: absolute;
+    top: 45rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Language {
+    position: absolute;
+    top: 57rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Skills {
+    position: absolute;
+    top: 70rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Photography {
+    position: absolute;
+    top: 46rem;
+    left: 45rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Videography {
+    position: absolute;
+    top: 82rem;
+    left: 45rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Interests {
+    position: absolute;
+    top: 84rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.References {
+    position: absolute;
+    top: 100rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Contact-me {
+    position: absolute;
+    top: 112rem;
+    left: 30rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
